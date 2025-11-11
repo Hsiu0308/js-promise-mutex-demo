@@ -68,7 +68,7 @@ async function main() {
     myAccount.processTransaction("賣葡萄", 50), // +50
   ]);
 
-  // 7 筆交易: 50*5 - 30 = 220
+  // 7 筆交易: 50*6 - 30 = 270
   const finalBalance = await myAccount.getFinalBalance();
   console.log(`---`);
   console.log(`所有交易完成，最終帳戶金額是: $${finalBalance}`);
